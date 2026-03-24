@@ -39,4 +39,6 @@ def analyze():
     return jsonify(result)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # debug=True only applies when running locally with `python3 app.py`.
+    # Gunicorn ignores this block entirely — it imports `app` directly.
+    app.run(debug=False)
