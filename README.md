@@ -1,5 +1,7 @@
 # File Type Identification Tool
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Try%20it%20now-4f8ef7?style=for-the-badge)](https://file-type-identification-tool.onrender.com)
+
 A cybersecurity tool that detects the true type of a file by reading its magic bytes and compares it against the declared file extension to flag suspicious mismatches.
 
 ## The Problem It Solves
